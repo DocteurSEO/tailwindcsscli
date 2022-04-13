@@ -1,31 +1,27 @@
 {
-  "name": "@kira272921/tailwindcsscli",
-  "version": "1.0.2",
-  "description": "A CLI for generating starter files for different JS frameworks with tailwindCSS pre-installed",
+  "name": "@create/express",
+  "version": "0.5.0",
+  "description": "A CLI for generating starter files for express api",
   "main": "./bin/index.js",
   "bin": {
-    "tcli": "./bin/index.js"
+    "ceapi": "./bin/index.js"
   },
   "scripts": {
     "start": "node ./bin/index.js"
   },
   "keywords": [
     "cli",
-    "tailwindcss",
-    "nodejs"
+    "express",
+    "nodejs",
+    "api"
   ],
-  "author": "Kira272921",
+  "author": "docteurseo",
   "license": "MIT",
   "dependencies": {
+    "chalk-animation": "^1.6.0",
     "inquirer": "^8.2.0",
+    "nanospinner": "^1.1.0",
     "shelljs": "^0.8.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kira272921/tailwindcsscli.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Kira272921/tailwindcsscli/issues"
-  },
-  "homepage": "https://github.com/Kira272921/tailwindcsscli/issues#readme"
+  }
+
 }
